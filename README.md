@@ -1,4 +1,4 @@
-# C++ GPT-2 Inference Engine (From Scratch)
+# LiteGPT [C++ GPT-2 Inference Engine]
 
 A high-performance, educational C++ inference runtime for Large Language Models (LLMs), inspired by projects like `llm.c` and `llama.cpp`.
 
