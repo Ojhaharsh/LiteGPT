@@ -43,7 +43,16 @@ build/vocab.json
 
 # Logs / outputs
 *.log
-*.txt
+clog.txt
+output.txt
+full_output.txt
+final.txt
+final_output.txt
+test_output.txt
+phase4_output.txt
+output_simd.txt
+fullout.txt
+p4.txt
 
 # Python cache
 __pycache__/
