@@ -1,0 +1,75 @@
+# Build directory
+build/
+cmake-build-*/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# MSVC / C++ build artifacts
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.exp
+
+# IDE files
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.swp
+*.swo
+*~
+
+# Model files
+models/*.bin
+*.bin
+gpt2_weights.bin
+*.ckpt
+*.pth
+
+# Tokenizer / vocab artifacts (generated or downloaded)
+vocab.json
+models/vocab.json
+build/vocab.json
+
+# Logs / outputs
+*.log
+*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Python environments / builds
+.venv/
+venv/
+env/
+dist/
+build_python/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ninja / compile DB
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
