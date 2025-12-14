@@ -39,6 +39,7 @@ gpt2_weights.bin
 # Tokenizer / vocab artifacts (generated or downloaded)
 vocab.json
 models/vocab.json
+models/gpt2_config.json
 build/vocab.json
 
 # Logs / outputs
