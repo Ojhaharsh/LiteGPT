@@ -1,0 +1,13 @@
+[project]
+name = "llm-inference-engine"
+version = "0.1.0"
+description = "C++ LLM Inference Engine with quantization support"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.0.0",
+    "safetensors>=0.4.0"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
